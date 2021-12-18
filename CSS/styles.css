@@ -19,10 +19,10 @@ body {
    color: black;
   }
 
-#fallbackImage.hide {
-    display: none;
-}
-
-#fallbackImage.show {
-    display: initial;
+#A9AdsMiddleBoxTop {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  left: -999em;
+  top: -999em
 }
