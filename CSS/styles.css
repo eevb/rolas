@@ -18,3 +18,11 @@ body {
    font-size: xx-large;
    color: black;
   }
+
+#fallbackImage.hide {
+    display: none;
+}
+
+#fallbackImage.show {
+    display: initial;
+}
