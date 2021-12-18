@@ -9,7 +9,7 @@
     <script src="/adblock-&ad_block=.js"></script>
 </head>
 <body>
-<div id="A9AdsMiddleBoxTop" class="ads ad adsbox doubleclick ad-placement carbon-ads"></div>
+<div id="detect" class="ads ad AdsBoxTop doubleclick ad-placement carbon-ads"></div>
 <img src="http://path/to/your/image" id="fallbackImage" class="hide" />
     <span>
         <h1 id="Ubo">
@@ -18,7 +18,7 @@
     </span>
     <script>
 window.adBlockRunning = function() {
-    return (getComputedStyle(document.getElementById("#A9AdsMiddleBoxTop"))["display"] == "none") ? true : false;
+    return (getComputedStyle(document.getElementById("detect"))["display"] == "none") ? true : false;
   }()
 
 console.log(window.adBlockRunning);
