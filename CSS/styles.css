@@ -26,3 +26,10 @@ body {
   left: -999em;
   top: -999em
 }
+#fallbackImage.hide {
+    display: none;
+}
+
+#fallbackImage.show {
+    display: initial;
+}
