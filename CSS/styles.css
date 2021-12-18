@@ -1,0 +1,20 @@
+body {
+    background-image: url('/adblock/img/backgroundimage.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  #blackblock{
+    background-color: black;
+    height: 200px;
+  }
+
+  #Ubo {
+   font-size: xx-large;
+   color: black;
+  }
