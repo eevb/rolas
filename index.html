@@ -17,7 +17,9 @@
     <script>
       if( window.canRunAds === undefined ){
         // adblocker detected, show fallback
-        showFallbackImage();
+        function showFallbackImage() {
+    document.getElementById("fallbackImage").className = "show";
+       }
       }
     </script>
 </body>
