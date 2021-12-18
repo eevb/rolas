@@ -16,12 +16,11 @@
         </h1>
     </span>
     <script>
-function showFallbackImage() {
-    document.getElementById("fallbackImage").className = "show";
-}
-if (window.canRunAds === undefined) {
-    // adblocker detected, show fallback
-}
+window.adBlockRunning = function() {
+    return (getComputedStyle(document.getElementById("#A9AdsMiddleBoxTop"))["display"] == "none") ? true : false;
+  }()
+
+console.log(window.adBlockRunning);
     </script>
 </body>
 </html>
