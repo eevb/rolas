@@ -41,10 +41,6 @@ body {
   width: 50%;
 }
 
-#rolas:hover { 
-  opacity: 0.5;
-
- }
 #rolas:hover {
         background: url("https://raw.githubusercontent.com/kkttoo2/website/main/img/20211207_084116.jpg") no-repeat;
     }
