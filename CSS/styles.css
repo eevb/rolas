@@ -34,13 +34,19 @@ body {
 #fallbackImage.show {
     display: initial;
 }
-#rolas{
+#pirmas, #antras {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-#rolas:hover {
-        background: url("https://raw.githubusercontent.com/kkttoo2/website/main/img/20211207_084116.jpg") no-repeat;
-    }
+#antras {
+  display: none;  
+}
+a:hover #antras {
+  display: block;  
+}
+a:hover #pirmas {
+  display: none;  
+}
