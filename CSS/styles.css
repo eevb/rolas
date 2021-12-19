@@ -40,3 +40,8 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+#rolas:hover { 
+  opacity: 0.5;
+
+ }
