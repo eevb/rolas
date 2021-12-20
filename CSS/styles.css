@@ -17,10 +17,8 @@ body {
   }
 
 #pirmas, #antras {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex
+  justify-content: center
 }
 
 #antras {
