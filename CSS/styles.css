@@ -10,31 +10,12 @@ body {
     overflow: hidden; 
   }
 
-  #blackblock{
-    background-color: black;
-    height: 200px;
-  }
-
   #Ubo {
    font-size: xx-large;
    color: black;
    margin: 0px;
   }
 
-#detect {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  left: -999em;
-  top: -999em
-}
-#fallbackImage.hide {
-    display: none;
-}
-
-#fallbackImage.show {
-    display: initial;
-}
 #pirmas, #antras {
   display: block;
   margin-left: auto;
