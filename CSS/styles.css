@@ -19,17 +19,7 @@ body {
   margin-right: auto;
   width: 50%;
 }
-body {
-  background-color: red;
-}
-h1 {
-  color: white;
-    font-size: 500%;
-}
-p {
-  color: blue;
-    font-size: 2999%;
-}
+
 #antras {
   display: none;  
 }
