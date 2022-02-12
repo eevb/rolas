@@ -19,7 +19,15 @@ body {
   margin-right: auto;
   width: 50%;
 }
-
+body {
+  background-color: red;
+}
+h1 {
+  color: white;
+}
+p {
+  color: blue;
+}
 #antras {
   display: none;  
 }
