@@ -4,8 +4,7 @@ body {
   background-size: cover;
   position: relative;
 }
-body,
-html {
+body, html {
   height: 100%;
   margin: 0;
 }
