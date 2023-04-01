@@ -29,7 +29,7 @@ function showSlides(n) {
 //!!!!!!!!!!!!!!!!!! log in verification code !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 // Get the token value from local storage
-const tokenValue = localStorage.getItem("token");
+const tokenValue = sessionStorage.getItem("token");
 
 // Check if the token value is "1234"
 if (tokenValue === "12345") {
