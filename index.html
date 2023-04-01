@@ -5,47 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/styles.css" />
-    <script type="text/javascript" src="javascript/java.js"></script>
     <title>Rolas</title>
   </head>
   <body>
-    <span>
-      <h1 id="Ubo">Paslaugos Rolui</h1>
-      <p>Kavos puodelio išmetimas į šiukšliadėžę-1€.</p>
-    </span>
-    <a>
-      <img id="pirmas" src="img/20211207_083753.jpg" />
-      <img id="antras" src="img/20211207_084116.jpg" />
-    </a>
-    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <img src="img/rolas3.jpg" style="width: 100%" />
-      </div>
+    <div id="rolas1">
+      <span>
+        <h1 id="Ubo">Paslaugos Rolui</h1>
+        <p>Kavos puodelio išmetimas į šiukšliadėžę-1€.</p>
+      </span>
+      <a>
+        <img id="pirmas" src="img/20211207_083753.jpg" />
+        <img id="antras" src="img/20211207_084116.jpg" />
+      </a>
+      <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="img/rolas3.jpg" style="width: 100%" />
+        </div>
 
-      <div class="mySlides fade">
-        <img src="img/tatoo.jpg" style="width: 100%" />
-      </div>
+        <div class="mySlides fade">
+          <img src="img/tatoo.jpg" style="width: 100%" />
+        </div>
 
-      <div class="mySlides fade">
-        <img src="img/20211207_083753.jpg" style="width: 100%" />
-      </div>
+        <div class="mySlides fade">
+          <img src="img/20211207_083753.jpg" style="width: 100%" />
+        </div>
 
-      <!-- Next and previous 
+        <!-- Next and previous 
   buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+
+        <span class="dot" onclick="currentSlide(2)"></span>
+
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
-    <br />
-
-    <!-- The dots/circles -->
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-
-      <span class="dot" onclick="currentSlide(2)"></span>
-
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+    <script src="javascript/java.js"></script>
   </body>
 </html>
